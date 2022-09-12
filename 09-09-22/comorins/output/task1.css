@@ -1,13 +1,15 @@
 .div-1{
     background-color: lightseagreen;
     border:10px solid blue;
-    height:40%;width:20%;
+    width:20%;
+    padding-bottom:20%;
     margin-left:10px;
 }
 .div-2{
     background-color: lightseagreen;
     border:10px solid blue;
-    height:40%;width:20%;
+    width:20%;
+    padding-bottom: 20%;
     margin-top:20px;
     margin-left:10px;
 }

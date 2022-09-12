@@ -2,7 +2,11 @@
 .div{
     border: 1px solid lightseagreen;
     background-color: lightpink;
-    height:100%;width: 60px;
-    margin-left: 55px;
+    height:100%;width:6.1%;
+    margin-left: 20px;
     display: inline-block;
 }
+.main{
+    height: 100%;
+    width: 1200px;
+}s
