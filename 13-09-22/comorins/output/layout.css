@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    border: 5px solid white;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    border: 5px solid white;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 250px;
+}
+footer{
+    border: 5px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
