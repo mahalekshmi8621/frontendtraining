@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding-top:48px ;
+    padding-bottom: 49px;
+    text-align: center;
+
+}
+li{
+    display: inline-block;
+    margin-right: 52px;
+    font-size: 27px;  
+}
+.head{
+    display: inline-block;
+}
+.head-1 img{
+    width: 218px;
+    height: 146px;
+    top: 155px;
+    left: 75px;
+
+.head-2{
+    float: right;
+    width: 50%;
+}
+
+
+
+
+
