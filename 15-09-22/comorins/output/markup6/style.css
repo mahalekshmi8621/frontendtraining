@@ -16,18 +16,134 @@ li{
     font-size: 27px;  
 }
 .head{
+    display: table;
+    width: 100%;
+}
+.head img{
+    display: table-cell;
+    width: 218px;
+}
+
+.head-1{
+    padding-right: 69px;
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    
+}
+.head-1 h6{
+    font-size: 26px;
+    height: 30.47px;
+}
+.main{
+    width: 100%;
+    height: 737px;
+    background-color: #F3F2EE;
+    
+}
+.main h3{
+    height: 45px;
+    width: 332px;
+    padding-top: 72px;
+    margin-left:54px ;
+}
+.main-1{
+
+    width:26%;
+    display: inline-block;
+    margin-left: 38px;
+}
+.main-2{
+    width:26%;
+    display: inline-block;
+    margin-left: 93px;
+}
+.main-3{
+    width:26%;
+    display: inline-block;
+    margin-left: 93px;
+}
+.main img{
+    width: 369px;
+    height: 278px;
+}
+.img{
+    border: 1px solid #6F6C6C;
+    padding: 10px;
+}
+.main h6{
+    margin-top: 61px;
+    font-size: 23px;
+    width: 357px;
+    margin-left: 38px;
+}
+.h-6{
+    color: #6D9D34
+
+}
+.sub-1 img{
+    width:183px ;
+    height: 152px;
+    display: inline-block;
+    margin-left: 48px;
+}
+.sub{
+    width: 50%;
     display: inline-block;
 }
-.head-1 img{
-    width: 218px;
-    height: 146px;
-    top: 155px;
-    left: 75px;
-
-.head-2{
-    float: right;
-    width: 50%;
+.sub-1{
+    display: inline-block;
+    padding-top: 92px;
+    padding-bottom: 130px;
 }
+
+.sub-2 h3{
+    padding-bottom: 16px;
+    font-size: 43px;
+    margin-left: 38px;
+}
+.sub-2 hr{
+    margin-left: 38px;
+}
+.sub-2 img{
+    border: 1px solid black;
+    width:202px ;
+    height: 170px;
+    padding: 10px;
+    margin-left: 44px;
+}
+.sub-2-1{
+    width: 49%;
+    display: inline-block;
+}
+.sub-2-2{
+    width: 50%;
+    display: inline-block;
+}
+.sub-2-2 .h6{
+    font-size: 20px;
+    padding-bottom: 23px;
+}
+.sub-2-2 .h6-1{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.sub-2-2 .h6-2{
+    font-size:16px ;
+    padding-bottom: 48px;
+}
+.sub-2 h6{
+    font-size: 16px;
+}
+.div{
+    width: 49%;
+    display: inline-block;
+}
+
+
+
+
+
 
 
 
