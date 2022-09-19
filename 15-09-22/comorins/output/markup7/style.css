@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1284px;
+    margin: 0 auto;
+}
+.head{
+    display: table;
+    background-color: #FCFCFC;
+}
+.logo img{
+    width:192px;
+    display:table-cell;
+}
+.head ul{
+    width: 1091px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 58px;
+}
+.head li{
+    display: inline-block;
+    padding-left: 68px;
+    font-size: 18px;
+}
+.head li:last-child{
+    padding-left: 2px;
+    margin-left: 68px;
+    border: 1px solid #EC463C;
+    background-color: #EC463C;
+}
+.banner{
+    background-image: url("Asset 4 1 (1).png")
+    
+}
+.banner1{
+    padding-bottom: 69px;
+    width: 1284px;
+    margin: 0 auto;
+}
+.banner-1{
+    width:41%;
+    display: inline-block;
+}
+.banner1 img{
+    margin-left: 180px;
+    width: 573px;
+    display: inline-block;
+}
+.banner-1 .h6{
+    margin-bottom: 27px;
+    font-size: 44px;
+}
+.banner-1 .h6-1{
+    font-size: 20px;
+}
+.vector{
+    padding-top: 52px;
+    background-color: #1F2631;
+    padding-bottom: 52px;
+}
+.vector li{
+    display: inline-block;
+}
+.vector img{
+    margin-left: 174px;
+}
+.vector h6{
+    width: 512px;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-left: 49px;
+}
+.vector form{
+    margin-left: 85px;
+}
+.vector input{
+    font-size: 20px;
+    width: 374px;
+    padding-top: 30;
+    color: #494D56;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.blog{
+    padding-top: 102px;
+    padding-bottom: 54px;
+}
+.blog li{
+    display: inline-block;
+    border: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    margin-left: 60px;
+}
+.blog li:first-child{
+    margin-left: 0;
+}
+.blog form{
+    margin-right: 0;
+}
+.main{
+    width: 24.76%;
+    display: inline-block;
+}
+.main.sub img{
+    width: 295px;
+}
+.sub .h1{
+    width: 246px;
+    margin-left: 25px;
+    margin-top: 29px;
+    font-size: 24px;
+}
+.sub h6{
+    font-size: 16px;
+    width: 239px;
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-bottom: 91px;
+}
+section{
+    background-color: #F5F5F5;
+}
+.sub{
+    background-color: #FCFCFC;
+}
+.no li{
+    padding: 13px;
+    font-size: 20px;
+    margin-left: 14px;
+    display: inline;
+    border: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+}
+.no ul{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.no .li{
+    background-color: #EE4037;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
