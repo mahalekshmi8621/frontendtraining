@@ -101,6 +101,7 @@ li{
     padding-bottom: 16px;
     font-size: 43px;
     margin-left: 38px;
+    color: #8f8f8f;
 }
 .sub-2 hr{
     margin-left: 38px;
@@ -136,9 +137,59 @@ li{
     font-size: 16px;
 }
 .div{
-    width: 49%;
+    vertical-align: top;
+    width: 45%;
+    display: inline-block;
+    margin-left: 70px;
+
+}
+.div-1 hr{
+  margin-left: 10px;
+}
+.div-1 h3{
+    font-size: 43px;
+    color: #8f8f8f;
+    padding-bottom: 16px;
+    margin-left: 10px;
+}
+.div img{
+    width: 164px;
+    height: 135px;
+    border: 1px solid #7b7979;
+    padding: 10px;
+    margin-bottom: 47px;
     display: inline-block;
 }
+.div .h6-1{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 26px;
+}
+.div-1 .h6-1{
+    margin-top: 31px;
+    width: 309px;
+}
+.div-1 img{
+    margin-top: 32px;
+}
+.div-2{
+    margin-top: 82px;
+}
+.div-3{
+    margin-top: 82px;
+}
+.div-1 h5{
+    margin-bottom: 2px;
+    font-size: 24px;
+}
+.div h6{
+    width: 309px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
 
 
 

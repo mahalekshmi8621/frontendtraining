@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: black;
+    color: white;
+    font-size: 27px;
+}
+.main li{
+    margin-left: 57px;
+}
+.main1 h6{
+    font-size: 26px;
+}
+.main1 img{
+    width: 218px;
+}
+.sub h4{
+    margin-top: 72px;
+    margin-bottom: 38px;
+    font-size: 38px;
+    color: #343434;
+}
+.sub img{
+    width: 369px;
+    border: 1px solid #6F6C6C;
+    padding: 10px;
+}
+.sub{
+    padding-left: 70px;
+    background-color: #f3f2ee;
+}
+.sub h6{
+    font-size: 23px;
+    margin-top: 38px;
+}
+.sub .h6{
+    font-size: 29px;
+    color: #6d9d34;
+}
+
+.book .book1{
+    width: 100%;
+    margin-top: 97px;
+    
+}
+.book h5{
+    font-size: 20px;
+    color: #8f8f8f;
+}
+.book h6{
+    font-size: 18px;
+    color: #8f8f8f;
+}
+.book1 img{
+    width:100%;
+   
+}
+.book2 img{
+    width: 100%;
+    border: 1px solid #333333;
+    padding: 10px;
+}
+.book h3{
+    font-size: 43px;
+    color: #8f8f8f;
+}
+
+.book .h61{
+    font-size: 16px;
+    color:#8f8f8f ;
+}
+.div{
+    margin-top: 71px;
+}
+.div-1 img{
+    width: 100%;
+    border: 1px solid #7b7979;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.div-2 h5{
+    font-size: 22px;
+}
+.div-2 h6{
+    font-size: 20px;
+}
+.div-2 .h61{
+    font-size: 24px;
+    color: #6d9d34;
+    margin-top: 17px;
+    text-align: right;
+}
+.div-1{
+    margin-top: 37px;
+}
+.div-2{
+    margin-top: 37px;
+}
+.footer-1{
+    padding-right: 29px;
+    padding-left: 47px;
+    background-color: #333333;
+   padding-bottom:57px;
+    
+    
+}
+.footer-1 h3{
+    margin-left: 49px;
+    margin-top: 63px;
+    color: #b1b1b1;
+}
+.footer-1 .imgs img{
+    width: 111px;
+    margin-left: 16px;
+}
+.footer-1 .row1{
+    margin-bottom: 50px;
+}
+.footer-1 .about img{
+    width: 196px;
+    border: 1px solid #c2c2c2;
+    padding: 10px;
+    margin-bottom: 47px;
+}
+.about h6{
+    color: #ffffff;
+}
+
+.add h6{
+    width: 240px;
+    font-size: 21px;
+    color: #ffffff;
+    padding: 2px;
+}
+.footer-2{
+    background-color: #777777;
+    color: #D7E8B9;
+    font-size: 21px;
+}
+.footer-2 .h62{
+    float: right;
+    vertical-align: top;
+}
+.footer-2 .right p{
+    float: right;
+}
+
+
+

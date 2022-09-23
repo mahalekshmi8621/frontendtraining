@@ -1,0 +1,34 @@
+*{margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+body{
+    background-color: gray;
+}
+.left{
+    margin-top: 10px;
+
+}
+h2{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.box{
+    background-color: white;
+}
+.main{
+    background-color: palevioletred;
+}
+.right{
+    margin: 0;
+    margin-top: 10px;
+    background-color: palevioletred;
+}
+footer{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
