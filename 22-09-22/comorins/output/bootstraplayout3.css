@@ -7,13 +7,13 @@
     .main{
         background-color: black;
         color: white;
-        font-size: 10px;
+        font-size: 8px;
     }
     .main li{
-        margin-left: 27px;
+        margin-left: 17px;
     }
     .main1 h6{
-        font-size: 16px;
+        font-size: 10px;
     }
     .main1 img{
         width: 218px;
@@ -139,17 +139,14 @@
     .footer-2{
         background-color: #777777;
         color: #D7E8B9;
-        font-size: 18px;
+        font-size: 5px;
     }
     .footer-2 .h62{
         float: right;
         vertical-align: top;
     }
-    .footer-2 .right h6{
-        float: right;
-    }
-    }
-    @media(min-width:767px){
+}
+@media(min-width:767px){
     *{
         margin: 0;
         padding: 0;
@@ -160,7 +157,7 @@
         font-size: 15px;
     }
     .main li{
-        margin-left: 37px;
+        margin-left: 27px;
     }
     .main1 h6{
         font-size: 16px;
