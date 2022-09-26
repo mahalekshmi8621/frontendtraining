@@ -1,0 +1,420 @@
+@media(min-width:575px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main img{
+        width: 125px;
+    }
+    .main ul{
+        margin-left: 130px;
+    }
+    .main li{
+        margin-left: 37px;
+        font-size: 23px;
+    }
+    .banner img{
+        margin-top: 18px;
+        margin-bottom: 18px;
+        width: 100%;
+    }
+    .phone h3{
+        font-size: 50px;
+    }
+    .phone .img-1{
+        border: 2px solid #46a3a9;
+        padding: 2px;
+        border-radius: 10px;
+    }
+    .phone .img-2{
+        border: 2px solid  #46a3a9;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: #46a3a9;
+    }
+    .phone h5{
+        font-size: 16px;
+        color: #080809;
+    }
+    .phone p{
+        font-size:15px ;
+        color: #aeaeae;
+    }
+    .phone h6{
+        color: #000000;
+        font-size: 16px;
+    }
+    .phone img{
+        width: 100%;
+    }
+
+    .form-1 .name input{
+        margin-bottom: 42px;
+        background-color: #f0efef ;
+    }
+    .form-1 .email input{
+        margin-bottom: 42px;
+        background-color: #f0efef ;
+    }
+    .form-2 .form-group input{
+        margin-bottom: 42px;
+        background-color: #f0efef;
+    }
+    .form-2 textarea{
+        background-color: #f0efef ;
+    }
+    .btn {
+        margin-top: 42px;
+        width: 249px;
+    }
+    footer{
+        margin-top: 43px;
+        background-color: #181621;
+    }
+    .footer-1 h4{
+        margin-top: 100px;
+        font-size:28px ;
+        color: #fcfdfd;
+    }
+    .footer-1 p{
+        font-size: 20px;
+        color: #aeaeae;
+    }
+    .footer-1 hr{
+        margin-bottom: 38px;
+        width: 243px;
+        background-color: #fefefe;
+    }
+    .footer-1 .imgs{
+        margin-top: 55px;
+        margin-bottom: 136px;
+    }
+    .footer-1 .imgs img{
+        margin-left: 50px;
+    }
+    .footer-1 .imgs .img-1{
+        border: 1px solid #ffffff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .footer-2{
+        color: #aeaeae;
+        font-size: 15px;
+    }
+}
+@media(min-width:767px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main img{
+        width: 125px;
+    }
+    .main ul{
+        margin-left: 130px;
+    }
+    .main li{
+        margin-left: 37px;
+        font-size: 23px;
+    }
+    .banner img{
+        margin-top: 18px;
+        margin-bottom: 18px;
+        width: 100%;
+    }
+    .phone h3{
+        font-size: 73px;
+    }
+    .phone .img-1{
+        border: 2px solid #46a3a9;
+        padding: 2px;
+        border-radius: 10px;
+    }
+    .phone .img-2{
+        border: 2px solid  #46a3a9;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: #46a3a9;
+    }
+    .phone h5{
+        font-size: 36px;
+        color: #080809;
+    }
+    .phone p{
+        font-size:23px ;
+        color: #aeaeae;
+    }
+    .phone h6{
+        color: #000000;
+        font-size: 23px;
+    }
+    .phone img{
+        width: 100%;
+    }
+
+    .form-1 .name input{
+        margin-bottom: 42px;
+        background-color: #f0efef ;
+    }
+    .form-1 .email input{
+        margin-bottom: 42px;
+        background-color: #f0efef ;
+    }
+    .form-2 .form-group input{
+        margin-bottom: 42px;
+        background-color: #f0efef;
+    }
+    .form-2 textarea{
+        background-color: #f0efef ;
+    }
+    .btn {
+        margin-top: 42px;
+        width: 249px;
+    }
+    footer{
+        margin-top: 43px;
+        background-color: #181621;
+    }
+    .footer-1 h4{
+        margin-top: 100px;
+        font-size:36px ;
+        color: #fcfdfd;
+    }
+    .footer-1 p{
+        font-size: 24px;
+        color: #aeaeae;
+    }
+    .footer-1 hr{
+        margin-bottom: 38px;
+        width: 243px;
+        background-color: #fefefe;
+    }
+    .footer-1 .imgs{
+        margin-top: 55px;
+        margin-bottom: 136px;
+    }
+    .footer-1 .imgs img{
+        margin-left: 50px;
+    }
+    .footer-1 .imgs .img-1{
+        border: 1px solid #ffffff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .footer-2{
+        color: #aeaeae;
+        font-size: 24px;
+    }
+}
+@media(min-width:991px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main img{
+        width: 125px;
+    }
+    .main ul{
+        margin-left: 80px;
+    }
+    .main li{
+        margin-left: 27px;
+        font-size: 18px;
+    }
+    .banner img{
+        margin-top: 18px;
+        margin-bottom: 18px;
+        width: 100%;
+    }
+    .phone h3{
+        font-size: 73px;
+    }
+    .phone .img-1{
+        border: 2px solid #46a3a9;
+        padding: 2px;
+        border-radius: 10px;
+    }
+    .phone .img-2{
+        border: 2px solid  #46a3a9;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: #46a3a9;
+    }
+    .phone h5{
+        font-size: 36px;
+        color: #080809;
+    }
+    .phone p{
+        font-size:23px ;
+        color: #aeaeae;
+    }
+    .phone h6{
+        color: #000000;
+        font-size: 23px;
+    }
+    .phone img{
+        width: 100%;
+    }
+
+    .form-1 .name input{
+        margin-bottom: 42px;
+        background-color: #f0efef ;
+    }
+    .form-1 .email input{
+        margin-bottom: 42px;
+        background-color: #f0efef ;
+    }
+    .form-2 .form-group input{
+        margin-bottom: 42px;
+        background-color: #f0efef;
+    }
+    .form-2 textarea{
+        background-color: #f0efef ;
+    }
+    .btn {
+        margin-top: 42px;
+        width: 249px;
+    }
+    footer{
+        margin-top: 43px;
+        background-color: #181621;
+    }
+    .footer-1 h4{
+        margin-top: 100px;
+        font-size:36px ;
+        color: #fcfdfd;
+    }
+    .footer-1 p{
+        font-size: 24px;
+        color: #aeaeae;
+    }
+    .footer-1 hr{
+        margin-bottom: 38px;
+        width: 243px;
+        background-color: #fefefe;
+    }
+    .footer-1 .imgs{
+        margin-top: 55px;
+        margin-bottom: 136px;
+    }
+    .footer-1 .imgs img{
+        margin-left: 50px;
+    }
+    .footer-1 .imgs .img-1{
+        border: 1px solid #ffffff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .footer-2{
+        color: #aeaeae;
+        font-size: 24px;
+    }
+}
+@media(min-width:1200px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main img{
+        width: 125px;
+    }
+    .main ul{
+        margin-left: 130px;
+    }
+    .main li{
+        margin-left: 37px;
+        font-size: 23px;
+    }
+    .banner img{
+        margin-top: 18px;
+        margin-bottom: 18px;
+        width: 100%;
+    }
+    .phone h3{
+        font-size: 73px;
+    }
+    .phone .img-1{
+        border: 2px solid #46a3a9;
+        padding: 2px;
+        border-radius: 10px;
+    }
+    .phone .img-2{
+        border: 2px solid  #46a3a9;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: #46a3a9;
+    }
+    .phone h5{
+        font-size: 36px;
+        color: #080809;
+    }
+    .phone p{
+        font-size:23px ;
+        color: #aeaeae;
+    }
+    .phone h6{
+        color: #000000;
+        font-size: 23px;
+    }
+    .phone img{
+        width: 100%;
+    }
+
+    .form-1 .name input{
+        margin-bottom: 42px;
+        background-color: #f0efef ;
+    }
+    .form-1 .email input{
+        margin-bottom: 42px;
+        background-color: #f0efef ;
+    }
+    .form-2 .form-group input{
+        margin-bottom: 42px;
+        background-color: #f0efef;
+    }
+    .form-2 textarea{
+        background-color: #f0efef ;
+    }
+    .btn {
+        margin-top: 42px;
+        width: 249px;
+    }
+    footer{
+        margin-top: 43px;
+        background-color: #181621;
+    }
+    .footer-1 h4{
+        margin-top: 100px;
+        font-size:36px ;
+        color: #fcfdfd;
+    }
+    .footer-1 p{
+        font-size: 24px;
+        color: #aeaeae;
+    }
+    .footer-1 hr{
+        margin-bottom: 38px;
+        width: 243px;
+        background-color: #fefefe;
+    }
+    .footer-1 .imgs{
+        margin-top: 55px;
+        margin-bottom: 136px;
+    }
+    .footer-1 .imgs img{
+        margin-left: 50px;
+    }
+    .footer-1 .imgs .img-1{
+        border: 1px solid #ffffff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .footer-2{
+        color: #aeaeae;
+        font-size: 24px;
+    }
+}
