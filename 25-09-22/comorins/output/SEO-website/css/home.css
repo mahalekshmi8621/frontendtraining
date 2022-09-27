@@ -382,6 +382,7 @@
     .btn {
         margin-top: 42px;
         width: 249px;
+        border-radius: 20px;
     }
     footer{
         margin-top: 43px;
