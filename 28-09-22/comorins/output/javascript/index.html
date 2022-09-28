@@ -70,9 +70,11 @@
             let list=[];
             function add(){
                 let todo=document.getElementById("itom").value;
+                
                 list.push(todo);
                 console.log(list)
                 disply(list);
+                document.getElementById("itom").value="";
             }
             function disply(list_arr){
                 let ele="";
