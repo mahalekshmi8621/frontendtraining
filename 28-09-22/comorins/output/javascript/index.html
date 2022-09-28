@@ -1,0 +1,88 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input id="num-1" type="number">
+        <input id="num-2" type="number">
+        <button onclick="add();">add</button>
+        <input id="itom" type="text">
+        <button onclick="add();">add</button>
+        <ul id="todo"></ul>
+        <script>
+            let name="I.Mahalekshmi"
+            let personaldetails=[{email:"mahalekshmi8621@gmail.com",
+                                 phoneNo:7816841216,
+                                 dob:8-6-2001,
+                                 languagekown:["tamil","english"],
+                                 familydetails:[{fatherName:"Iyappan",
+                                                 fatheroccupatin:"cooli",
+                                                 MotherName:"Prema",
+                                                 Matheroccupation:"home maker",
+                                                 siblings:"shiva",
+                                                 brotheroccupation:"electritian"
+                                                }],
+                                 address:[{doorNo:"12/2",
+                                            street:"kovil street",
+                                            place:"Mylaudy"
+                                          }]
+                                        }]
+            let hobbies=["cooking","dancing","gardening"]
+            let education=[
+                             {
+                                study:"SSLC",
+                                institute:"SMRV",
+                                mark:95
+                             },
+                             {
+                                study:"HRC",
+                                institute:"Ringle Taube Hr. Sec. School",
+                                mark:95
+                             },
+                             {
+                                study:"B.E",
+                                institute:"cape institute of technology",
+                                mark:95
+                            
+                            }
+                            
+                            ]
+
+            for(let i=0; i<education.length; i++)
+            {
+                console.log(education[i].institute)
+            }
+            let total=0;
+            for(let i=0; i<education.length; i++)
+            {
+                console.log(education[i].mark)
+                total=total+education[i].mark;
+            }
+            console.log(total)
+            let average;
+            console.log(average=total/education.length)
+            function add(){
+                let a=document.getElementById("num-1").value;
+                let b=document.getElementById("num-2").value;
+                let c=Number(a)+Number(b);
+                alert(c);
+            }
+            let list=[];
+            function add(){
+                let todo=document.getElementById("itom").value;
+                list.push(todo);
+                console.log(list)
+                disply(list);
+            }
+            function disply(list_arr){
+                let ele="";
+                for(let i=0;i<list_arr.length; i++)
+                {
+                    ele=ele+"<li>"+list_arr[i]+"</li>";
+                }
+                document.getElementById("todo").innerHTML=ele;
+
+            }
+        </script>
+    </body>
+</html>
