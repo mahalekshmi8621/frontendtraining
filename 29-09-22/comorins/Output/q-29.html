@@ -1,0 +1,20 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            function checkLeepYear(num_1){
+                if(num_1%4==0 && !num_1%100==0){
+                    console.log("Leep Year")
+                }else if(num_1%400==0){
+                    console.log("Leep Year")
+                }else{
+                    console.log("Not a Leep Year")
+                }
+            }
+            checkLeepYear(2004);
+            checkLeepYear(2001);
+            checkLeepYear(2022);
+            checkLeepYear(2008);
+        </script>
+    </body>
+</html>

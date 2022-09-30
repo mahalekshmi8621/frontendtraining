@@ -1,0 +1,29 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+
+            function evalNumbers(num_1,num_2,input){
+                if(input=="add"){
+                    console.log(num_1+num_2)
+                }else if(input=="subtract"){
+                    console.log(num_1-num_2)
+                }else if(input=="multiply"){
+                    console.log(num_1*num_2)
+                }else if(input=="divide"){
+                    console.log(num_1/num_2)
+                }else if(input=="modulus"){
+                    console.log(num_1%num_2)
+                }else{
+                    console.log("invalid operation")
+                }
+            }
+            evalNumbers(839,398,"add");
+            evalNumbers(839,398,"subtract");
+            evalNumbers(839,398,"multiply");
+            evalNumbers(839,398,"divide");
+            evalNumbers(839,398,"modulus");
+            evalNumbers(839,398,"sqrt");
+        </script>
+    </body>
+</html>

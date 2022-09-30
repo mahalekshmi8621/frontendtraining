@@ -2,17 +2,17 @@
     <head></head>
     <body>
         <script>
-            let a="cats";
-            let b="dogs";
-            let c="sheep";
-            let d="geese";
             function pluralize(num_1,txt){
-                console.log(num_1,txt)
+                if(num_1>1){
+                console.log(+num_1+"  "+txt+"s")
+            }else{
+                console.log(+num_1+" "+txt)
             }
-            pluralize(5,a)
-            pluralize(7,b)
-            pluralize(3,c)
-            pluralize(1,d)
+        }
+            pluralize(5,"cat");
+             pluralize(7,"dog")
+             pluralize(3,"sheep")
+             pluralize(1,"geese")
 
         </script>
     </body>
