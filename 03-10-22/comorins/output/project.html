@@ -1,0 +1,47 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input id="itom" type="text"/>
+        <button onclick="addition()">add</button>
+        <ul id="todos"></ul>
+        <script>
+            
+            if(!localStorage.getItem("todos")){
+            
+                localStorage.setItem("todos", JSON.stringify([]));
+             }  
+             let list=JSON.parse(localStorage.getItem("todos"));
+             
+            function addition(){
+                let item=document.getElementById("itom").value;
+               
+                list.push(item);
+                localStorage.setItem("todos", JSON.stringify(list));
+
+                disply();
+                console.log(list)
+            }
+            function disply(){
+                let ele="";
+                let local_item=JSON.parse(localStorage.getItem("todos"));
+                console.log(local_item)
+                for(let i=0;i<local_item.length;i++){
+                    ele=ele+"<li>"+local_item[i]+"<button onclick='removeItem(i)'>delete</button>"+"</li>";
+
+                }
+                document.getElementById("todos").innerHTML=ele;
+            }
+
+            disply();
+        
+            function removeItem(){
+
+            }
+                
+        
+
+        </script>
+    </body>
+</html>
