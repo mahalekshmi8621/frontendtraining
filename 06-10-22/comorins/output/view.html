@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    </head>
+    <body>
+        <form>
+            <label>NAME:</label><br><br>
+            <label>EMAIL:</label><br><br>
+            <label>PHONENO:</label><br><br>
+            <label>ROLL:</label><br><br>
+            <label>OBJECTIVE:</label><br><br>
+            <label>SKILLS</label>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            <label>HOBBIES</label>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>    
+            <label>EDUCATIONAL-DETAILS</label>    
+            <table class="table table-sm">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">COURSE</th>
+                    <th scope="col">YEAR</th>
+                    <th scope="col">INSTITUTE</th>
+                    <th scope="col">PERCENTAGE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <lable>PROJECT-DETAILS</lable>
+              <table class="table table-sm">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">TITLE</th>
+                    <th scope="col">ABSTRACT</th>
+                    <th scope="col">AREA</th>
+                    <th scope="col">LANGUAGE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td></td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <label>PERSONAL-DETAILS</label><br>
+                  <label>Address:</label><br>
+                  <label>DOB:</label><br>
+                  <label>Marrital-status:</label><br>
+                  <label>Father Name:</label><br>
+                  <label>MOther Name:</label><br>
+                  <label>languages known:</label>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+        </form>
+        <script>
+            const querystring=window.location.search;
+            const urlparms=new URLSearchParams(querystring);
+            const product = urlparms.get('name');
+            alert(product);
+        </script>
+    </body>
+</html>

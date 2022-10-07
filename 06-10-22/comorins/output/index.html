@@ -1,0 +1,195 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        NAME:
+        <input type="text" id="name" onkeyup="addDetails('name',this.value)"/><br><br>
+        EMAIL:
+        <input type="text" id="email" onkeyup="addDetails('email',this.value)"/><br><br>
+        PHONENO:
+        <input type="text" id="phoneNo" onkeyup="addDetails('phoneNo',this.value)"/><br><br>
+        ROLL:
+        <input type="text" id="roll" onkeyup="addDetails('roll',this.value)"/><br><br>
+        OBJECTIVE:
+        <input type="text" id="objective" onkeyup="addDetails('objective',this.value)"/><br><br>
+        SKILLS:
+        <input type="text" id="skills" onkeyup="addDetails('skills',this.value,0)"/>
+        <input type="text" id="skills" onkeyup="addDetails('skills',this.value,1)"/>
+        <input type="text" id="skills" onkeyup="addDetails('skills',this.value,2)"/>
+        <input type="text" id="skills" onkeyup="addDetails('skills',this.value,3)"/><br><br>
+        HOBBIES:
+        <input type="text" id="hobbies" onkeyup="addDetails('hobbies',this.value,0)"/>
+        <input type="text" id="hobbies" onkeyup="addDetails('hobbies',this.value,1)"/>
+        <input type="text" id="hobbies" onkeyup="addDetails('hobbies',this.value,2)"/>
+        <input type="text" id="hobbies" onkeyup="addDetails('hobbies',this.value,3)"/><br><br>
+        EDUCATIONAL-DETAILS:
+        <table>
+            <thead>
+                <th>COURSE</th>
+                <th>YEAR</th>
+                <th>INSTITUTE</th>
+                <th>PERCENTAGE</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,0,'course')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,0,'year')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,0,'institute')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,0,'percentage')"/></td>
+                </tr>
+                <tr>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,1,'course')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,1,'year')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,1,'institute')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,1,'percentage')"/></td>
+                </tr>
+                <tr>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,2,'course')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,2,'year')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,2,'institute')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,2,'percentage')"/></td>
+                </tr>
+                <tr>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,3,'course')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,3,'year')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,3,'institute')"/></td>
+                    <td><input type="text" onkeyup="addDetails('education',this.value,3,'percentage')"/></td>
+                </tr>
+
+            </tbody>
+        </table><br><br>
+        PROJECT-DETAILS:
+        <table>
+            <thead>
+                <th>TITLE</th>
+                <th>ABSTRACT</th>
+                <th>AREA</th>
+                <th>LANGUAGE</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,0,'title')"/></td>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,0,'abstract')"/></td>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,0,'area')"/></td>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,0,'language')"/></td>
+                </tr>
+                <tr>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,1,'title')"/></td>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,1,'abstract')"/></td>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,1,'area')"/></td>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,1,'language')"/></td>
+                </tr>
+                <tr>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,2,'title')"/></td>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,2,'abstract')"/></td>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,2,'area')"/></td>
+                    <td><input type="text" onkeyup="addDetails('projects',this.value,2,'language')"/></td>
+                </tr>
+            </tbody>
+        </table><br><br>
+        PERSONAL-DETAILS:<br><br>
+        Address: <input type="text" onkeyup="addDetails('personal_details',this.value,0,'address')"/><br><br>
+        DOB: <input type="text" onkeyup="addDetails('personal_details',this.value,1,'DOB')"/><br><br>
+        Marrital-status: <input type="text" onkeyup="addDetails('personal_details',this.value,2,'marrital_status')"/><br><br>
+        Father-Name: <input type="text" onkeyup="addDetails('personal_details',this.value,3,'father_name')"/><br><br>
+        Mother-Name: <input type="text" onkeyup="addDetails('personal_details',this.value,4,'mother_name')"/><br><br>
+        LANGUAGES KNOWN:
+            <input type="text" onkeyup="addDetails('languages_known',this.value,0)"/>
+            <input type="text" onkeyup="addDetails('languages_known',this.value,1)"/>
+            <input type="text" onkeyup="addDetails('languages_known',this.value,2)"/><br><br>
+            <button onclick="displayName()">submit</button>
+
+        <p id="obj"></p>
+        <ul id="forms"></ul>
+        <script>
+            let resume={
+                skills:[],
+                hobbies:[],
+                education:[],
+                projects:[],
+                personal_details:[],
+                languages_known:[]
+            };
+                function addDetails(key,value,index=null,key_1){
+                    // alert(value);
+                    if(index==null && key_1==null){
+
+                        resume[key]=value;
+                    }else if(key_1==null){
+                        resume[key][index]=value;
+                    }else{
+                         if(!resume[key][index]){
+                             resume[key][index]={}
+                         }
+                        resume[key][index][key_1]=value;
+                    }
+                        //  display();
+                }
+                function display(){
+                     document.getElementById("obj").innerHTML=JSON.stringify(resume);
+                     
+                     if(!localStorage.getItem("resumes")){
+                        localStorage.setItem("resumes" ,JSON.stringify([]));
+                     }
+                     let list=JSON.parse(localStorage.getItem("resumes"));
+                     list.push(resume)
+                     localStorage.setItem("resumes", JSON.stringify(list));
+                    //  displayName();
+       }
+              function displayName(){
+                let ele="";
+                let local_list=JSON.parse(localStorage.getItem("resumes"));
+                for(let i=0; i<local_list.length; i++){
+                    ele=ele+"<li> <a href='view.html?name="+local_list[i].name + "'target='blank'>"+local_list[i].name+"</li>";
+                }
+                document.getElementById("forms").innerHTML=ele;
+                display();
+              }  
+                
+                
+
+                
+//                 name:"",
+//                 Email:"",
+//                 phoneNo:'',
+//                 roll:"",
+//                 objective:"",
+
+//                education:[{
+//                     qualification:"",
+//                     institute:"",
+//                     branch:"",
+//                     mark:"",
+//                     year_of_pass:"",
+
+//                 }],
+//                 skills:[],
+//                 certification:[{
+//                     course_name:"",
+//                     institute:"",
+//                     duration:"",
+//                 }],
+//                 project_details:[{
+//                     title:"",
+//                     abstract:"",
+//                     area:"",
+//                     language:"",
+//                 }],
+                
+//                 personal_details:[{
+//                     address:"",
+//                     DOB:"",
+//                     marrital_status:"",
+//                     languages:"",
+//                     Father_Name:"",
+//                     Mother_Name:"",
+//                     sibblings:"",
+//                 }],
+//                 hobbies:[],
+
+//             }
+
+//         </script>
+//     </body>
+// </html>

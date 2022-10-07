@@ -28,16 +28,18 @@
                 let local_item=JSON.parse(localStorage.getItem("todos"));
                 console.log(local_item)
                 for(let i=0;i<local_item.length;i++){
-                    ele=ele+"<li>"+local_item[i]+"<button onclick='removeItem(i)'>delete</button>"+"</li>";
-
+                    ele=ele+"<li>"+local_item[i]+"<button onclick='removeItem()'>delete</button>"+"</li>";
                 }
                 document.getElementById("todos").innerHTML=ele;
             }
 
             disply();
         
-            function removeItem(){
-
+            function removeItem(position){
+                let new_list=JSON.parse(localStorage.getItem("todos"))
+                list.splice(position,1);
+                localStorage.setItem("todos",JSON.stringify(list))
+                disply();
             }
                 
         
