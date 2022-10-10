@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width:127px;
+}
+.location{
+    border: 2px solid green;
+    width: 200px;
+}
+.search{
+    width:500px;
+}
