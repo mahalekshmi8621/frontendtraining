@@ -1,43 +1,182 @@
 <html>
     <head>
+      <title>home page</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link rel="stylesheet" href="project.css">
     </head>
     <body>
-        <div class="container">
-            <nav></nav>
-        <nav class=" navbar navbar-expand-lg navbar-light bg-#fff">
-            <a class="logo navbar-brand" href="#"><img src="images/logo.png"></a>
-            
-                <li class="location nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/search 1.png">
-                    INDIA
-                  </a>
-                  <div class=" dropdown-menu">
-                    <a class="dropdown-item" href="#">Use Current Location</a>
-                    
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Kerala </a>
-                    <a class="dropdown-item" href="#">TamilNadu</a>
-                    <a class="dropdown-item" href="#">Maharastra</a>
-                    <a class="dropdown-item" href="#">Punjab</a>
-                  </div>
-                </li>
-                
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="search form-control mr-sm-2" type="search" placeholder="find cars, mobile phones and more..." aria-label="Search">
-                <img src="images/search2.png">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+        <header>
+          <div class="container">
+            <ul class="nav nav-pills">
+              <li class="logo nav-item">
+               <img src="images/logo.png"> 
+                <!-- <img src="https://s.yimg.com/fz/api/res/1.2/U94JZO.OcctUe2AYYUOV7Q--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/94841ac9-fa93-3be0-88a7-219bc4fc45a7/t_500x300"/> -->
+              </li>
+              <li class="location nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="images/search 1.png"> INDIA</a>
+                <div class="dropdown-menu">
+                  
+                  <a class="dropdown-item" href="#">use current location</a>
+                  <div class="dropdown-divider"></div>
+                  <p>popular locations</p>
+                  <a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg></i>kerala  </a>
+                  <a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>TamilNadu</a>
+                  <a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>Punjob</a>
+                  <a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>Maharastra</a>
+                  </li>
+               
+                  <!-- <form class="search form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    </form> -->
+
+                    <input class="search" type="search" placeholder="Find Cars, Mobile Phones and more..." >    
+                    <li class="log nav-item">
+                      <a class="nav-link" href="login.html">login</a>
+                    </li>
+                    <li class="log-1 nav-item">
+                      <a class="nav-link" href="login.html">+ sell</a>
+                    </li>
+           
+            <!-- <div class="dropdown-menu">
+              <h6 class="dropdown-header" type="radio"> ENGLISH</h6>
+              <a class="dropdown-item" href="#" type="radio">HINDHI</a>
+              
+            </div> -->
+          </div>
+          </div>
+
+        </header>
+        <nav>
+          <div class="container">
+          <li class="navig-1 nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              <b>ALL-CATEGORIES</b> 
+            </a>
+            <div class="menu dropdown-menu">
+              <div class="row">
+                <div class="col-3">
+              <a class="dropdown-item" href="#"><b>OLX autos(cars)</a></b><br><br>
+              <a class="dropdown-item" href="#"><b> Properties</a></b><br>
+              <a class="dropdown-item" href="#">  For Sale: Houses & Apartments</a>
+              <a class="dropdown-item" href="#">For Rent: Houses & Apartments</a>
+              <a class="dropdown-item" href="#">Lands and Plots </a>
+              <a class="dropdown-item" href="#"> For Rent :shops & offices</a>
+              <a class="dropdown-item" href="#">For Sale: shops & offices</a>
+              <a class="dropdown-item" href="#"> PG & Guest Houses</a><br><br><br>
+              <a class="dropdown-item" href="#"><b> Mobiles </a></b><br>
+              <a class="dropdown-item" href="#"> Mobile Phones </a>
+              <a class="dropdown-item" href="#"> Accessories </a>
+              <a class="dropdown-item" href="#"> Tablets </a>
             </div>
-          </nav>
+            <div class="col-3">
+              <a class="dropdown-item" href="#"><b>Jobs</b></a><br>
+              <a class="dropdown-item" href="#"> Data entry & Back office</a>
+              <a class="dropdown-item" href="#"> Driver </a>
+              <a class="dropdown-item" href="#">  Sales & Marketing   </a>
+              <a class="dropdown-item" href="#">  Office Assistant   </a>
+              <a class="dropdown-item" href="#">  Teacher </a>
+              <a class="dropdown-item" href="#">  Cook</a><br><br><br><br>
+              <a class="dropdown-item" href="#"><b>Bikes</b></a><br>
+              <a class="dropdown-item" href="#"> Motorcycles</a>
+              <a class="dropdown-item" href="#"> Scooters</a>
+              <a class="dropdown-item" href="#"> Spare Parts</a>
+              <a class="dropdown-item" href="#"> Bicycles</a>
+              
+            </div>
+            <div class="col-3">
+              <a class="dropdown-item" href="#"><b>Electronics & Appliances</b></a><br>
+              <a class="dropdown-item" href="#"> TVs, Video -Audio</a>
+              <a class="dropdown-item" href="#"> Kitchen & Other Appliances</a>
+              <a class="dropdown-item" href="#"> Computers & Laptops</a><br><br>
+              <a class="dropdown-item" href="#"><b>Commercial & Other Appliances</b></a><br>
+              <a class="dropdown-item" href="#"> Commercial & Other Vehicles</a>
+              <a class="dropdown-item" href="#">Spare Parts </a><br><br>
+              <a class="dropdown-item" href="#"><b>Furniture</b></a><br>
+              <a class="dropdown-item" href="#">Sofa & Dining</a>
+              <a class="dropdown-item" href="#">Beds & Wardrobes</a>
+              <a class="dropdown-item" href="#">Home Decor & Garden</a>
+              <a class="dropdown-item" href="#">Kids Furniture</a>
+              <a class="dropdown-item" href="#">Other Household Items</a>
+            </div>
+            <div class="col-3">
+              <a class="dropdown-item" href="#"><b> Fashion</b></a><br>
+              <a class="dropdown-item" href="#"> Men</a>
+              <a class="dropdown-item" href="#"> Women</a>
+              <a class="dropdown-item" href="#">Kids</a><br><br><br>
+              <a class="dropdown-item" href="#"><b>Books, Sports & Hobbies </b></a><br>
+              <a class="dropdown-item" href="#"> Books </a>
+              <a class="dropdown-item" href="#">Gym & Fitness </a>
+              <a class="dropdown-item" href="#">Musical Instruments </a><br><br><br>
+              <a class="dropdown-item" href="#"><b>  Pets</b></a><br>
+              <a class="dropdown-item" href="#"> Fishes & Aquarium </a><br><br><br>
+              <a class="dropdown-item" href="#"><b> Services </b></a><br>
+              <a class="dropdown-item" href="#"> Electronics & Computer</a>
+              <a class="dropdown-item" href="#">Education & Classes </a>
+              <a class="dropdown-item" href="#">Drivers & Taxi </a>
+            </div>
+            </div>
+          </div>
+            </li>
+            <div class="navig-2">
+            <nav class=" nav">
+              
+              <a class="nav-link" href="#">Cars</a>
+              <a class="nav-link" href="#">Motorcycles</a>
+              <a class="nav-link" href="#"> Mobile Phones</a>
+              <a class="nav-link" href="#"> For Sale: Houses & Apartments</a>
+              <!-- <a class="nav-link" href="#"> Scooters</a>
+              <a class="nav-link" href="#">Commercial & Other Vehicles</a>
+              <a class="nav-link" href="#">For Rent: Houses & Apartments</a> -->
+             
+            </nav>
+          </div>
         </div>
-        <code id="object"></code>
-        
+        </nav>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
         <script src="project.js"></script>
       </body>
     </html>
+   
+    
+    
+   
+   
+   
+    
+    
+   
+
+    
+    
+   
+    
+    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
