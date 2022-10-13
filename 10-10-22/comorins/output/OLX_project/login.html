@@ -18,8 +18,9 @@
             <input type="text" id="username"><br><br>
             PASSWORD:
             <input type="password" id="password"><br><br>
-            <button onclick="login()">login</button>
             <div id="errorbox"></div>
+            <button onclick="login();">login</button>
+           
             <p class="message">Not registered? <a href="register.html">Register</a></p>
             <p >Return To Home Page?? <a href="project.html">home page</a></p>
         </div>
@@ -35,32 +36,30 @@
             if(password==null || password==""){
                 document.getElementById("errorbox").innerHTML="enter the  password";
                 return false;
-                // check();
+                
             }
-            // function check(){
-            let entries=localStorage.getItem("details");
-            if(!entries){ 
-                alert("nothing stored!")
-                return;
-              
-             }
-             
-             let entries_list=JSON.parse(localStorage.getItem("details"));
-             for(let i=0; i<entries_list.length; i++){
-                 let entry=entries_list[i];
-                 let storedName=entry.uname;
-                 let storedPassword=entry.pswd;
-                //  let storedEmail=entry.email;
-                 if(username==storedName && password==storedPassword){
-                     alert("successfully logged in !!");
-                     return;
-                 }else{
-                 alert('invalid username or password ! please try again!!!.');
-        
-             } 
-             }
+            check();
         }
-    // }
+            function check(){
+                let entry=localStorage.getItem("details")
+                 if(!localStorage.getItem("details")){
+                    alert("Empty storage")
+                    console.log("empty")
+                }
+                 let local_list=localStorage.getItem("details");
+                 for(let i=0; i<local_list.length; i++){
+                     let storedname = local_list[i].name ;
+                    let storedpassword = local_list[i].password ;
+                     if(storedname==username && storedpassword==password){
+                        alert("logged in successfully")
+                    }}
+                if(storedname != username || storedpassword != password){
+                    alert("Invalid Username or Password !!...Try again ....!!!")
+                 }
+                
+
+            }
+        
         </script>
     </body>
 </html>
