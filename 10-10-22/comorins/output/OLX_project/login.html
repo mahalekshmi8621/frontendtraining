@@ -1,64 +1,75 @@
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <title>Login Form</title>
         <style>
-            .div{
-                text-align: center;
-                background-color: bisque;
-                width: 50%;
-                margin-left: 25%;
-                padding:50px;
+            body{
+                background-image:url("images/image-1.png");
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+            
             }
         </style>
     </head>
     <body>
-        <div class="div">
+        <div class="div container">
+            <h1>LOG IN</h1>
+        <!-- <div class="div">
             <h1>LOGIN</h1>
             USER NAME:
             <input type="text" id="username"><br><br>
             PASSWORD:
             <input type="password" id="password"><br><br>
             <div id="errorbox"></div>
-            <button onclick="login();">login</button>
+            <button onclick="login();">login</button> -->
+            <form>
+                <div class=" form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <div id="errorbox"></div>
+                <button onclick="login()" >login</button>
+              </form>
            
             <p class="message">Not registered? <a href="register.html">Register</a></p>
             <p >Return To Home Page?? <a href="project.html">home page</a></p>
         </div>
+    </div>
         <script>
             function login(){
-            let username=document.getElementById("username").value;
+            let email=document.getElementById("email").value;
+            console.log(email)
             let password=document.getElementById("password").value;
+            console.log(password)
 
-            if(username==null || username==""){
-                document.getElementById("errorbox").innerHTML="enter the user name";
-                return false;
-            }
-            if(password==null || password==""){
-                document.getElementById("errorbox").innerHTML="enter the  password";
-                return false;
+            //  if(email==null || email==""){
+            // document.getElementById("errorbox").innerHTML="enter the email address ";
+            //     return false;
+            //  }
+            // if(password==null || password==""){
+            //      document.getElementById("errorbox").innerHTML="enter the  password";
+            //      return false;
                 
+            // }
+           let user_details=JSON.parse(localStorage.getItem("details"));
+           console.log(user_details)
+           for(let i=0; i<user_details.length; i++){
+            if(email==user_details[i].email && password==user_details[i].password){
+                alert("loged in successfully")
             }
-            check();
+           }
         }
-            function check(){
-                let entry=localStorage.getItem("details")
-                 if(!localStorage.getItem("details")){
-                    alert("Empty storage")
-                    console.log("empty")
-                }
-                 let local_list=localStorage.getItem("details");
-                 for(let i=0; i<local_list.length; i++){
-                     let storedname = local_list[i].name ;
-                    let storedpassword = local_list[i].password ;
-                     if(storedname==username && storedpassword==password){
-                        alert("logged in successfully")
-                    }}
-                if(storedname != username || storedpassword != password){
-                    alert("Invalid Username or Password !!...Try again ....!!!")
-                 }
-                
-
-            }
+           
         
         </script>
     </body>
